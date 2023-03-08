@@ -6,7 +6,7 @@
     "dev": "nuxi dev",
     "build": "NITRO_PRESET=azure nuxi build",
     "lint": "eslint './**/*.{js,ts,vue}' --fix --max-warnings=0",
-    "generate": "nuxt generate",
+    "generate": "nuxi generate && touch .output/public/.nojekyll",
     "preview": "nuxt preview",
     "analyze": "nuxi analyze"
   },
