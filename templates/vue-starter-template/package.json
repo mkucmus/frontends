@@ -45,6 +45,6 @@
     "vite": "6.3.5"
   },
   "stackblitz": {
-    "startCommand": "pnpm i && pnpm dev"
+    "startCommand": "npm i && npm run dev"
   }
 }
