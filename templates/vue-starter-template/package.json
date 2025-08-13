@@ -45,6 +45,7 @@
     "vite": "6.3.5"
   },
   "stackblitz": {
+    "installDependencies": false,
     "startCommand": "npm i && npm run dev"
   }
 }
